@@ -3,7 +3,7 @@ import { ImageLoader } from "next/image";
 const UNOPTIMIZED_IMAGES = process.env.UNOPTIMIZED_IMAGES === "true";
 
 const Configuration: AppConfiguration = {
-  title: "The Making Of Series: DBZ",
+  title: "TMOS: DBZ",
   description:
     "The Making of Series is a new exciting NFT-project from Xinra Inc, partnered with renowned artist.",
   unoptimizedImages: UNOPTIMIZED_IMAGES,
