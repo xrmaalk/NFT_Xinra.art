@@ -25,7 +25,8 @@ const About: FunctionComponent = () => {
           </p>
           <p>
             After the launch the team will split into a fresh NFT marketplace
-            development plus further development of our P2E game RodNinjas..
+            development plus further development of our P2E game RoboNinjo
+            <sup>TM</sup>.
           </p>
         </div>
       }
