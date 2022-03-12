@@ -22,12 +22,11 @@ body {
   --accent-color-lighten15: #{$accent-color-lighten15};
   --accent-color-lighten15-opacity: #{$accent-color-lighten15-opacity};
 
-  --base-font: 'Readex Pro', Helvetica, Arial, sans-serif;
+  --base-font: "Readex Pro", Helvetica, Arial, sans-serif;
   --base-letter-spacing: normal;
   // --accent-font: 'Press Start 2P', cursive;
-  --accent-font: 'Creepster', cursive;
+  --accent-font: "Alfa Slab One", cursive; //Adjust Header Text
   --accent-letter-spacing: 2px;
-
 
   padding: 0;
   font-style: normal;
@@ -40,12 +39,15 @@ body {
   max-width: 100%;
 }
 
-body, html, .base-text {
+body,
+html,
+.base-text {
   font-family: var(--base-font);
   letter-spacing: var(--base-letter-spacing);
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: var(--accent-font);
   letter-spacing: var(--accent-letter-spacing);
 }
