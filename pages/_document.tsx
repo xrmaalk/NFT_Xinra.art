@@ -1,5 +1,5 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
-import Configuration from '~/utils/configuration'
+import Document, { Html, Head, Main, NextScript } from "next/document";
+import Configuration from "~/utils/configuration";
 
 class MyDocument extends Document {
   render() {
@@ -11,10 +11,20 @@ class MyDocument extends Document {
           <link rel="icon" href="/favicon.ico" />
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        
-          <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@342;458&display=swap" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet" />
+          <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin=""
+          />
+
+          <link
+            href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@342;458&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
+            rel="stylesheet"
+          />
           {/* <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" /> */}
         </Head>
         <body>
@@ -22,8 +32,8 @@ class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    )
+    );
   }
 }
 
-export default MyDocument
+export default MyDocument;
